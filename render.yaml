@@ -1,7 +1,7 @@
 databases:
   - name: Linker
-    databaseName: postgres
-    user: mysite
+    databaseName: Linker
+    user: Hritik
     plan: free
 
 services:
