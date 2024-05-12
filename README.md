@@ -51,6 +51,6 @@ These instructions will get you a copy of the project up and running on your loc
 [![linktreess3.jpg](https://i.postimg.cc/28STyYKw/linktreess3.jpg)](https://postimg.cc/gr13tCdX)
 [![linktreess3.jpg](https://i.postimg.cc/28STyYKw/linktreess3.jpg)](https://postimg.cc/gr13tCdX)
 [![after-link.jpg](https://i.postimg.cc/Dy0dFgSp/after-link.jpg)](https://postimg.cc/hfF71VbV)
-[![lin-tree.jpg](https://i.postimg.cc/mgFY1gNQ/lin-tree.jpg)](https://postimg.cc/9DCRvVkM)
+[![tellus.jpg](https://i.postimg.cc/mZXCdHmY/tellus.jpg)](https://postimg.cc/nMmXrCbr)
 
 
