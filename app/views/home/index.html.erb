@@ -1,0 +1,30 @@
+<!-- Your existing stylesheet link tag -->
+<%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+
+
+<!-- Your existing HTML structure -->
+
+<div class="row">
+  <p class="notice"> <%#= notice #%> </p>
+
+  <div class="column column-60">
+    <div class="content-container">
+      <div class="text-content">
+        <h1>Link your Information. Together, Representable! .</h1>
+        <p>Join a community of over 40 million individuals who trust Linktree as their go-to solution for bio links. With Linktree, you can streamline the process of sharing your content, whether it's your latest creations, carefully curated collections, or products, across various social media platforms such as Instagram, TikTok, Twitter, YouTube, and more. Say goodbye to cluttered bios and hello to simplicity, all with just one link.</p>
+
+        <% if user_signed_in? %>
+          <% if current_user.tree.present? %>
+            <%= link_to "View my tree", current_user.tree, class: "button-1", target: "_blank" %>
+          <% else %>
+            <%= link_to "Create your own Link Tree", new_tree_path, class: "button-1", target: "_blank" %>
+          <% end %>
+        <% else %>
+          <%= link_to "Be the curator of your own linktree!", new_user_registration_path, class: "button-1", target: "_blank" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+</div>
